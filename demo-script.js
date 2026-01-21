@@ -143,17 +143,17 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             src: "Dashboard (2).png",
             title: "Main Dashboard",
-            description: "Overview of sales, inventory, and business performance at a glance with key metrics and charts."
+            description: "Overview of sales, low stock products, and business performance at a glance with key metrics and charts."
         },
         {
-            src: "sale_processing.png",
+            src: "sales_processing.png",
             title: "Sales Processing",
             description: "Fast checkout interface with barcode scanning, multiple payment options, and receipt generation."
         },
         {
             src: "product_management.png",
             title: "Inventory Management",
-            description: "Track stock levels, manage suppliers, set reorder points, and handle stock transfers."
+            description: "Track stock levels, manage suppliers, set reorder points, and update stock."
         },
         {
             src: "best_selling report.png",
@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', function() {
         {
             src: "clients.png",
             title: "Customer Management",
-            description: "Manage customer profiles, purchase history, contact details, and loyalty programs."    
+            description: "Manage customer profiles, purchase history and contact details."    
         },
         {
             src: "settings.png",
@@ -429,3 +429,4 @@ document.addEventListener('DOMContentLoaded', function() {
     document.head.appendChild(comingSoonStyle);
 
 });
+
