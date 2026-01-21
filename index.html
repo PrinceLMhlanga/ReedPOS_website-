@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReedPOS - Professional Point of Sale Software</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Montserrat:wght@700;800;900&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+</head>
+<body>
+    <!-- Animated Background Elements -->
+    <div class="background-animation">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+        <div class="square square-1"></div>
+        <div class="square square-2"></div>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">
+                <i class="fas fa-cash-register"></i>
+                <span>Reed<span class="logo-highlight">POS</span></span>
+            </a>
+            <div class="nav-links">
+                <a href="#features">Features</a>
+                <a href="#installation">Installation</a>
+                <a href="demo.html">Demo & Screenshots</a>
+                <a href="#pricing">Pricing</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <a href="#installation" class="btn btn-nav">
+                <i class="fas fa-download"></i> Download Now
+            </a>
+            <button class="menu-toggle" id="menuToggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="premium-badge">
+                        <i class="fas fa-crown"></i>
+                        <span>Professional Grade</span>
+                    </div>
+                    <h1 class="title animate-text">
+                        <span class="title-word title-word-1">Professional</span>
+                        <span class="title-word title-word-2">Point of Sale</span>
+                        <span class="title-word title-word-3">Software</span>
+                    </h1>
+                    <p class="subtitle">Run your business with <span class="highlight">speed and precision</span>. ReedPOS offers complete offline functionality with all essential business management features.</p>
+                    
+                    <div class="hero-features">
+                        <div class="feature-item">
+                            <i class="fas fa-wifi-slash"></i>
+                            <span>Works Offline</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-dollar-sign"></i>
+                            <span>Pay Once - $199</span>
+                        </div>
+                        <div class="feature-item">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Lifetime License</span>
+                        </div>
+                    </div>
+                    
+                    <div class="cta-buttons">
+                        <a href="#installation" class="btn btn-primary">
+                            <i class="fas fa-download"></i> Download & Install
+                        </a>
+                        <a href="#features" class="btn btn-secondary">
+                            <i class="fas fa-list-check"></i> View Features
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <div class="floating-card">
+                        <div class="license-badge">
+                            <i class="fas fa-key"></i>
+                            <span>Single-User License: $199</span>
+                        </div>
+                        <div class="screen-mockup">
+                            <div class="screen-header">
+                                <div class="screen-dots">
+                                    <span class="dot red"></span>
+                                    <span class="dot yellow"></span>
+                                    <span class="dot green"></span>
+                                </div>
+                                <div class="screen-title">ReedPOS Dashboard</div>
+                            </div>
+                            <div class="screen-content">
+                                <div class="app-features">
+                                    <div class="app-feature">
+                                        <i class="fas fa-boxes"></i>
+                                        <span>Manage Stock</span>
+                                    </div>
+                                    <div class="app-feature">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span>Process Sales</span>
+                                    </div>
+                                    <div class="app-feature">
+                                        <i class="fas fa-chart-bar"></i>
+                                        <span>Reports</span>
+                                    </div>
+                                    <div class="app-feature">
+                                        <i class="fas fa-users"></i>
+                                        <span>Manage Clients</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Key Features Section -->
+    <section class="features" id="features">
+        <div class="container">
+            <h2 class="section-title">Complete Business Management</h2>
+            <p class="section-subtitle">ReedPOS includes all features you need to run your business efficiently</p>
+            
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-boxes"></i>
+                    </div>
+                    <h3 class="feature-title">Inventory Management</h3>
+                    <p class="feature-description">Track stock levels, manage suppliers, set reorder points, and handle stock transfers.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                    </div>
+                    <h3 class="feature-title">Sales Processing</h3>
+                    <p class="feature-description">Fast checkout, multiple payment methods, receipts, and sales history tracking.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3 class="feature-title">Reports & Analytics</h3>
+                    <p class="feature-description">Sales reports, inventory reports, profit analysis, and business performance insights.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3 class="feature-title">Customer Management</h3>
+                    <p class="feature-description">Customer profiles, purchase history, contact management, and customer segmentation.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-user-cog"></i>
+                    </div>
+                    <h3 class="feature-title">User Management</h3>
+                    <p class="feature-description">Multi-user support with role-based permissions and access control.</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-cogs"></i>
+                    </div>
+                    <h3 class="feature-title">Preferences & Settings</h3>
+                    <p class="feature-description">Customize tax rates, receipt templates, printer settings, and business preferences.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Installation Guide -->
+    <section class="installation" id="installation">
+        <div class="container">
+            <h2 class="section-title">Step-by-Step Installation & Activation</h2>
+            <p class="section-subtitle">Follow these simple steps to get ReedPOS running on your system</p>
+            
+            <div class="steps-container">
+                <!-- Step 1 -->
+                <div class="step-card">
+                    <div class="step-number">1</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Download the Installer</h3>
+                        <p class="step-description">Click the link below to download the ReedPOS setup file directly from GitHub.</p>
+                        <div class="step-action">
+                            <a href="https://github.com/PrinceLMhlanga/ReedPOS/releases/download/v1.0.0/ReedPOS_Setup.exe" class="btn btn-download">
+                                <i class="fas fa-download"></i> Download ReedPOS_Setup.exe
+                            </a>
+                            <p class="step-note">This will trigger a single-click download of the installation file.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Step 2 -->
+                <div class="step-card">
+                    <div class="step-number">2</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Run the Installer</h3>
+                        <p class="step-description">After download completes, locate the file and run <code>ReedPOS_Setup.exe</code>.</p>
+                        <div class="step-action">
+                            <div class="instruction-box">
+                                <p><i class="fas fa-check-circle"></i> Follow the on-screen installation prompts</p>
+                                <p><i class="fas fa-check-circle"></i> Choose your installation directory</p>
+                                <p><i class="fas fa-check-circle"></i> Complete the installation process</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Step 3 -->
+                <div class="step-card">
+                    <div class="step-number">3</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Setup Admin Account</h3>
+                        <p class="step-description">When ReedPOS opens for the first time, you'll see the setup window.</p>
+                        <div class="step-action">
+                            <div class="instruction-box">
+                                <p><i class="fas fa-user-circle"></i> Enter details for your admin account</p>
+                                <p><i class="fas fa-building"></i> Fill in your company details</p>
+                                <p><i class="fas fa-print"></i> Configure your printer settings</p>
+                                <p class="warning-note"><i class="fas fa-exclamation-circle"></i> Note: You cannot proceed with empty fields</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Step 4 -->
+                <div class="step-card">
+                    <div class="step-number">4</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Proceed to License Purchase</h3>
+                        <p class="step-description">After filling all fields, click <strong>Proceed</strong> to continue.</p>
+                        <div class="step-action">
+                            <div class="instruction-box">
+                                <p><i class="fas fa-sign-in-alt"></i> Login with your newly created admin account</p>
+                                <p><i class="fas fa-shopping-cart"></i> Navigate to the license purchase section</p>
+                                <p><i class="fas fa-dollar-sign"></i> Select the single-user license for <strong>$199</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Step 5 -->
+                <div class="step-card">
+                    <div class="step-number">5</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Complete Payment</h3>
+                        <p class="step-description">You will be redirected to your browser to complete the secure payment.</p>
+                        <div class="step-action">
+                            <div class="instruction-box">
+                                <p><i class="fas fa-credit-card"></i> Complete the payment process in your browser</p>
+                                <p><i class="fas fa-arrow-left"></i> Return to ReedPOS application after payment</p>
+                                <p><i class="fas fa-check-circle"></i> Click <strong>Check Payment</strong> in the app</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Step 6 -->
+                <div class="step-card">
+                    <div class="step-number">6</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Activate Your License</h3>
+                        <p class="step-description">If payment was successful, you'll receive your license key.</p>
+                        <div class="step-action">
+                            <div class="instruction-box">
+                                <p><i class="fas fa-key"></i> License key will be auto-filled in the textbox</p>
+                                <p><i class="fas fa-save"></i> Key is also saved in <code>Documents/ReedPOS</code> folder</p>
+                                <p><i class="fas fa-bolt"></i> Click <strong>Activate</strong> to enable offline verification</p>
+                                <p class="success-note"><i class="fas fa-rocket"></i> You're ready to run your business with ReedPOS!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing" id="pricing">
+        <div class="container">
+            <h2 class="section-title">Simple, One-Time Pricing</h2>
+            <p class="section-subtitle">Pay once and own your license forever. No subscriptions, no recurring fees.</p>
+            
+            <div class="pricing-card">
+                <div class="pricing-header">
+                    <div class="pricing-badge">Most Popular</div>
+                    <h3 class="pricing-title">Single-User License</h3>
+                    <div class="price">
+                        <span class="currency">$</span>
+                        <span class="amount">199</span>
+                        <span class="period">One-Time Payment</span>
+                    </div>
+                    <p class="pricing-description">Perfect for small businesses and individual entrepreneurs</p>
+                </div>
+                
+                <div class="pricing-features">
+                    <h4>Everything Included:</h4>
+                    <ul>
+                        <li><i class="fas fa-check"></i> Full offline functionality</li>
+                        <li><i class="fas fa-check"></i> Inventory management</li>
+                        <li><i class="fas fa-check"></i> Sales processing & history</li>
+                        <li><i class="fas fa-check"></i> Customer management</li>
+                        <li><i class="fas fa-check"></i> Comprehensive reports</li>
+                        <li><i class="fas fa-check"></i> User management</li>
+                        <li><i class="fas fa-check"></i> Preferences & settings</li>
+                        <li><i class="fas fa-check"></i> Lifetime updates</li>
+                        <li><i class="fas fa-check"></i> Email support</li>
+                    </ul>
+                </div>
+                
+                <div class="pricing-cta">
+                    <a href="#installation" class="btn btn-primary btn-large">
+                        <i class="fas fa-download"></i> Download & Get Started
+                    </a>
+                    <p class="pricing-note">No credit card required until activation</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Need Help?</h2>
+            <p class="section-subtitle">Contact us if you have any questions about ReedPOS</p>
+            
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Email Support</h3>
+                            <p>support@reedpos.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-file-alt"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>Documentation</h3>
+                            <p>Full installation and user guide</p>
+                        </div>
+                    </div>
+                    
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-github"></i>
+                        </div>
+                        <div class="contact-details">
+                            <h3>GitHub Repository</h3>
+                            <p>View the source code and releases</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-reminder">
+                    <div class="reminder-card">
+                        <i class="fas fa-lightbulb"></i>
+                        <h3>Important Reminder</h3>
+                        <p>ReedPOS is an <strong>offline application</strong>. Once activated, it doesn't require an internet connection to function.</p>
+                        <p>Your license key is stored locally and verified offline, ensuring you can always run your business.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <a href="#" class="logo">
+                        <i class="fas fa-cash-register"></i>
+                        <span>Reed<span class="logo-highlight">POS</span></span>
+                    </a>
+                    <p class="footer-tagline">Professional Point of Sale Software</p>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Product</h4>
+                        <a href="#features">Features</a>
+                        <a href="#installation">Installation</a>
+                        <a href="#pricing">Pricing</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <a href="#contact">Support</a>
+                        <a href="https://github.com/PrinceLMhlanga/SwiftPOS" target="_blank">GitHub</a>
+                        <a href="#contact">Documentation</a>
+                    </div>
+                    
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <a href="#">Privacy Policy</a>
+                        <a href="#">License Agreement</a>
+                        <a href="#">Terms of Use</a>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2023 ReedPOS. All rights reserved. Point of Sale software for modern businesses.</p>
+                <p class="footer-note">ReedPOS is a paid software product. The single-user license is $199 for lifetime use.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
