@@ -141,42 +141,42 @@ document.addEventListener('DOMContentLoaded', function() {
     // Screenshot data - Updated to ReedPOS
     const screenshots = [
         {
-            src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+            src: "Dashboard (2).png",
             title: "Main Dashboard",
             description: "Overview of sales, inventory, and business performance at a glance with key metrics and charts."
         },
         {
-            src: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+            src: "sale_processing.png",
             title: "Sales Processing",
             description: "Fast checkout interface with barcode scanning, multiple payment options, and receipt generation."
         },
         {
-            src: "https://images.unsplash.com/photo-1556742044-3f034d9f7226?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+            src: "product_management.png",
             title: "Inventory Management",
             description: "Track stock levels, manage suppliers, set reorder points, and handle stock transfers."
         },
         {
-            src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+            src: "best_selling report.png",
             title: "Sales Reports",
             description: "Detailed sales analysis with charts, export options, and performance insights."
         },
         {
-            src: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+            src: "clients.png",
             title: "Customer Management",
-            description: "Manage customer profiles, purchase history, contact details, and loyalty programs."
+            description: "Manage customer profiles, purchase history, contact details, and loyalty programs."    
         },
         {
-            src: "https://images.unsplash.com/photo-1556742044-3f034d9f7226?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+            src: "settings.png",
             title: "System Settings",
-            description: "Configure business preferences, user accounts, printer settings, and tax rates."
+            description: "Configure business preferences, printer settings, and tax rates."
         },
         {
-            src: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+            src: "product_management.png",
             title: "Product Catalog",
             description: "Add, edit, and manage products with images, categories, pricing, and stock information."
         },
         {
-            src: "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?ixlib=rb-4.0.3&auto=format&fit=crop&w=1200&q=80",
+            src: "users.png",
             title: "User Management",
             description: "Create user accounts with role-based permissions, access control, and activity logging."
         }
@@ -427,4 +427,5 @@ document.addEventListener('DOMContentLoaded', function() {
     `;
     
     document.head.appendChild(comingSoonStyle);
+
 });
